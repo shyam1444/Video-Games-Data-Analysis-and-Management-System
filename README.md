@@ -8,6 +8,17 @@ This project is a Python-based application designed to visualize and manage a co
 - **Database Management**: Employs MySQL to handle data storage, retrieval, and manipulation, ensuring efficient data management.
 - **Comprehensive Dataset**: Includes a vast collection of video game data, facilitating in-depth analysis and exploration.
 
+## Requisites
+
+To set up and run this project, follow these steps:
+
+1. Copy the code into the Jupyter Notebook.
+2. Download XAMPP and run it while keeping the tab open.
+3. Open PHPMyAdmin (localhost) from XAMPP.
+4. Import the database into localhost.
+5. Add each section of code in separate cells within the Jupyter Notebook.
+6. Run the "Modules and Packages" cell first, followed by the remaining code in each subsequent cell.
+
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -18,13 +29,11 @@ To set up the project locally, follow these steps:
    git clone https://github.com/shyam1444/Video-Games-Data-Analysis-and-Management-System.git
    ```
 
-
 2. **Navigate to the Project Directory**:
 
    ```bash
    cd Video-Games-Data-Analysis-and-Management-System
    ```
-
 
 3. **Install Required Python Libraries**:
 
@@ -33,7 +42,6 @@ To set up the project locally, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-
 
 4. **Set Up the MySQL Database**:
 
@@ -57,7 +65,6 @@ After completing the installation steps:
    python main.py
    ```
 
-
 2. **Explore Data**:
 
    Use the application's interface to visualize and analyze the video game data.
@@ -66,10 +73,10 @@ After completing the installation steps:
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
+## License
+
+This project is licensed under the MIT License. 
+
 ## Acknowledgements
 
 Special thanks to all contributors and the open-source community for their invaluable resources and support.
-
----
-
-*Note: This project was developed to visualize a massive data collection of video gaming data. The integration of MySQL with Python was implemented to execute this project effectively. Please consult the project for more details. Have fun coding!*  
